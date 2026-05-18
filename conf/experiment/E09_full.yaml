@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: wiser_rf_full
+  - override /loss: rp_hc
+  - override /augment: awb_sbi_v2
+  - override /training: default_calibrated
+experiment_id: E09_full
+tags: [wiser_rf, awb_sbi_v2, hard_negative, cross_domain]

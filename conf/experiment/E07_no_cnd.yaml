@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: wiser_rf_no_cnd
+  - override /loss: rp_hc_no_cnd
+  - override /augment: awb_sbi
+  - override /training: default_calibrated
+experiment_id: E07_no_cnd
+tags: [wiser_rf, ablation, no_cnd]

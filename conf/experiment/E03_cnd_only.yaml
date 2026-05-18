@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: wiser_rf_full
+  - override /loss: cnd_only
+  - override /augment: full
+  - override /training: default_calibrated
+experiment_id: E03_cnd_only
+tags: [wiser_rf, cnd_only]

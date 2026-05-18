@@ -1,0 +1,27 @@
+# @package loss
+focal:
+  enabled: true
+  alpha: 0.4
+  gamma: 0.0
+  weight: 1.0
+mphc:
+  enabled: true
+  K: 4
+  embed_dim: 256
+  margin: 0.35
+  temperature: 0.07
+  asymmetric: true
+  hard_negative_weight: 0.1
+  weight: 0.5
+  rp_enabled: true
+  lambda_real_margin: 0.5
+  real_delta: 0.40
+  hard_real_topk_frac: 0.25
+  hard_real_weight: 2.0
+freq:
+  enabled: true
+  weight: 0.1
+brier:
+  enabled: false
+cnd:
+  enabled: false

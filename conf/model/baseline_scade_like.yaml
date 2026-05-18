@@ -1,0 +1,11 @@
+# @package model
+defaults:
+  - wiser_full
+cdc:
+  theta: 0.0
+wavelet:
+  enabled: false                 # defocus-only path
+bissm:
+  enabled: false                 # ECA fallback
+ssca:
+  enabled: false                 # channel-concat fusion

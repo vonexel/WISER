@@ -1,0 +1,5 @@
+# @package loss
+defaults:
+  - full
+freq:
+  enabled: false

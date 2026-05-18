@@ -1,0 +1,20 @@
+# @package data
+name: ffpp
+paths:
+  raw_root: ${oc.env:WISER_RAW,${hydra:runtime.cwd}/dataset}
+  cache_root: ${oc.env:WISER_CACHE,${hydra:runtime.cwd}/preprocessed}
+img_size: 256
+wavelet_size: 128
+frames_per_video: 100
+frame_stride: 10
+crop_margin: 0.30
+batch_size: 96
+eval_batch_size: 128
+num_workers: 12
+prefetch_factor: 4
+pin_memory: true
+persistent_workers: true
+val_fraction: 0.14
+test_fraction: 0.14
+split_seed: 42
+rounds_per_epoch: 16
