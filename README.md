@@ -22,6 +22,7 @@ uv run python scripts/preprocess_celebdfpp.py --raw_root dataset/celebdfpp --cac
 ```bash
 # Train one experiment
 uv run python scripts/train.py experiment=E04_wiser seed=0
+```
 
 
 ```bash
