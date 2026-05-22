@@ -29,3 +29,9 @@ uv run python scripts/train.py experiment=E04_wiser seed=0
 # Run the full ablation sweep
 bash scripts/run_ablation.sh
 ```
+
+
+```bash
+# Start the streamlit-interface
+streamlit run app.py
+```
