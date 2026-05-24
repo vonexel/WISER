@@ -1,0 +1,156 @@
+seed: 0
+experiment_id: E04_wiser
+tags:
+- wiser_rf
+- full
+output_root: ${hydra:runtime.cwd}/outputs
+model:
+  _target_: wiser.models.wiser.WISER
+  embed_dim: 192
+  num_classes: 1
+  dropout: 0.1
+  cdc:
+    in_ch: 3
+    out_ch: 32
+    theta: 0.7
+  wavelet:
+    enabled: true
+    use_defocus: true
+    high_freq_gate: true
+  bissm:
+    enabled: true
+    d_state: 16
+    d_conv: 4
+    expand: 1
+    bidirectional: true
+  ssca:
+    enabled: true
+    heads: 1
+    dim: 256
+  cnd:
+    enabled: true
+    zc_dim: 192
+    zn_dim: 64
+    num_methods: 6
+    grl_lambda_max: 0.3
+    orth_warmup_epoch: 5
+  compile: false
+data:
+  name: ffpp
+  paths:
+    raw_root: ${oc.env:WISER_RAW,${hydra:runtime.cwd}/dataset}
+    cache_root: ${oc.env:WISER_CACHE,${hydra:runtime.cwd}/preprocessed}
+  img_size: 256
+  wavelet_size: 128
+  frames_per_video: 100
+  frame_stride: 10
+  crop_margin: 0.3
+  batch_size: 96
+  eval_batch_size: 128
+  num_workers: 12
+  prefetch_factor: 4
+  pin_memory: true
+  persistent_workers: true
+  val_fraction: 0.14
+  test_fraction: 0.14
+  split_seed: 42
+  rounds_per_epoch: 16
+loss:
+  focal:
+    enabled: true
+    alpha: 0.4
+    gamma: 0.0
+    weight: 1.0
+  mphc:
+    enabled: true
+    K: 4
+    embed_dim: 192
+    margin: 0.35
+    temperature: 0.07
+    asymmetric: true
+    hard_negative_weight: 0.1
+    weight: 0.5
+    rp_enabled: true
+    lambda_real_margin: 0.5
+    real_delta: 0.4
+    hard_real_topk_frac: 0.25
+    hard_real_weight: 2.0
+  freq:
+    enabled: true
+    weight: 0.1
+  brier:
+    enabled: true
+    weight: 0.05
+  cnd:
+    enabled: true
+    weight: 0.3
+    aux_weight: 1.0
+    grl_weight: 1.0
+    orth_enabled: true
+    orth_weight: 0.05
+augment:
+  use_awb_sbi: true
+  sbi:
+    enabled: true
+    p_sbi: 0.5
+    feather_sigma_min: 1.0
+    feather_sigma_max: 5.0
+    alpha_ll: 0.15
+    energy_boost: 1.5
+    soft_label: 0.7
+  freqmask:
+    enabled: true
+    p_freqmask: 0.3
+    min_size_frac: 0.05
+    max_size_frac: 0.25
+    high_freq_bias: 0.7
+  arca:
+    enabled: true
+    p_apply_real: 0.5
+    jpeg_qf_min: 30
+    jpeg_qf_max: 60
+    noise_sigma_max: 0.0314
+    median_blur_kernel: 3
+    gamma_min: 0.7
+    gamma_max: 1.3
+    p_jpeg: 0.7
+    p_noise: 0.5
+    p_blur: 0.3
+    p_gamma: 0.5
+  real_mixstyle:
+    enabled: true
+    p_mix: 0.3
+  horizontal_flip: 0.5
+  color_jitter: 0.5
+  jpeg_compression: 0.3
+  gauss_noise: 0.2
+  gauss_blur: 0.2
+  brightness_contrast: 0.3
+  shift_scale_rotate: 0.5
+training:
+  optim:
+    lr: 0.0003
+    weight_decay: 0.05
+    betas:
+    - 0.9
+    - 0.999
+    eps: 1.0e-08
+  sched:
+    epochs: 100
+    warmup_frac: 0.05
+    min_lr: 1.0e-06
+  calibration:
+    enabled: true
+    target_per_class: 4000
+    val_seed: 42
+    video_pool_calibrated: median
+    video_pool_uncalibrated: mean
+  epochs: 100
+  grad_clip_norm: 1.0
+  grad_accum_steps: 1
+  amp_dtype: bf16
+  ema_decay: 0.9999
+  early_stopping_patience: 10
+  log_every: 50
+  sanity_steps: 0
+  eval_during_training: true

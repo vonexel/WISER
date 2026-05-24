@@ -173,8 +173,7 @@ htmlcov/
 .venv/
 uv.lock
 
-# Hydra outputs
-outputs/
+# Hydra
 multirun/
 
 # Figures

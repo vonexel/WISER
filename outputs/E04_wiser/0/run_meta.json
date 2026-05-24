@@ -1,0 +1,10 @@
+{
+  "git_sha": "unknown",
+  "git_dirty": false,
+  "torch_version": "2.5.1+cu124",
+  "cuda_runtime": "12.4",
+  "cudnn_version": 90100,
+  "gpu_name": "NVIDIA H100 PCIe",
+  "host": "exptorch",
+  "seed": 0
+}

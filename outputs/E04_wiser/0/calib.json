@@ -1,0 +1,8 @@
+{
+  "temperature": 1.1393529486946536,
+  "prior_bias": 0.9270589351654053,
+  "threshold": 0.3123115577889447,
+  "val_subset_size": 8000,
+  "fitted": true,
+  "notes": ""
+}
