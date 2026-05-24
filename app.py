@@ -30,8 +30,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 
-CKPT_PATH = Path("./outputs/E14_wiser_rf_full/0/ckpt/best.pt")
-CALIB_PATH = Path("./outputs/E14_wiser_rf_full/0/calib.json")
+CKPT_PATH = Path("./outputs/E04_wiser/0/ckpt/best.pt")
+CALIB_PATH = Path("./outputs/E04_wiser/0/calib.json")
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 IMAGE_SIZE = 256
 WAVELET_SIZE = 128

@@ -1,4 +1,4 @@
-# WISER
+# Wavelet-Informed Spatial-Spectral Embedding with Refinement for Deepfake Detection
 
 
 ## Quick start
