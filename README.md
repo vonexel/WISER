@@ -1,10 +1,10 @@
 <p align="center">
 <h1 align="center"><strong>WISER: Wavelet-Informed Spatial-Spectral Embedding with Refinement for Deepfake Detection</strong></h1>
   <p align="center">
-    <a href='https://github.com/vonexel' target='_blank'>Nikolai Mozgovoi </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >∗</sup>&emsp;
-    <a href='https://donstu.ru/employees/cherkesova-larisa-vladimirovna' target='_blank'> Larissa Cherckesova </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >&#8224</sup>&emsp;
-    <a href='https://github.com/Irina-64' target='_blank'> Irina Trubchik </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >&#8224</sup>&emsp;
-    <a href='https://donstu.ru/employees/revyakina-elena-aleksandrovna' target='_blank'> Elena Revyakina </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >&#8224</sup>&emsp;
+    <a href='https://orcid.org/0009-0000-4104-0074' target='_blank'>Nikolai Mozgovoi </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >∗</sup>&emsp;
+    <a href='https://orcid.org/0000-0002-9392-3140' target='_blank'> Larissa Cherckesova </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >&#8224</sup>&emsp;
+    <a href='https://orcid.org/0000-0003-2433-3435' target='_blank'> Irina Trubchik </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >&#8224</sup>&emsp;
+    <a href='https://orcid.org/0000-0003-1577-2671' target='_blank'> Elena Revyakina </a><sup><img src="assets/DSTU.svg" align="center" width=1.8% >&#8224</sup>&emsp;
     <br>
     <br>
     <sup><img src="assets/DSTU.svg" align="center" width=2.4% ></sup> Don State Technical University, Rostov-on-Don, Russia <sup>
@@ -450,7 +450,7 @@ Note that the FaceForensics++ and Celeb-DF++ datasets are subject to their own l
 For questions regarding the code or the paper:
 
 - **Nikolai Mozgovoi** (primary author): nmozgovoi@outlook.com
-- **ORCID**: 0009-0000-4104-0074
+- **ORCID**: [0009-0000-4104-0074](https://orcid.org/0009-0000-4104-0074)
 - **Institution**: Don State Technical University, 1 Gagarin Square, Rostov-on-Don 344000, Russia
 
 For issues, bug reports, or contributions, please open a GitHub issue.
