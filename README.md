@@ -350,7 +350,9 @@ uv pip install --no-build-isolation causal-conv1d mamba-ssm
 
 1. **Download FaceForensics++**: Request access at [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics) and download the dataset.
 
-2. **Run preprocessing**:
+2. **Download Celeb-DF++++**: Request access at [https://github.com/OUC-VAS/Celeb-DF-PP](https://github.com/OUC-VAS/Celeb-DF-PP) and download the dataset.
+
+3. **Run preprocessing**: 
 ```bash
 # Preprocess (idempotent, video-level, cached on disk)
 uv run python scripts/preprocess_ffpp.py --raw_root dataset/ff_c23 --cache_root preprocessed
@@ -421,11 +423,18 @@ If you use the FaceForensics++ dataset, please also cite:
 If you use the Celeb-DF++ benchmark, please cite:
 
 ```bibtex
-@article{li2025celebdfpp,
-  title={Celeb-DF++: A Large-Scale Challenging Video DeepFake Benchmark for Generalizable Forensics},
-  author={Li, Y. and others},
+@article{li2025celeb,
+  title={Celeb-DF++: A Large-scale Challenging Video DeepFake Benchmark for Generalizable Forensics},
+  author={Li, Yuezun and Zhu, Delong and Cui, Xinjie and Lyu, Siwei},
   journal={arXiv preprint arXiv:2507.18015},
   year={2025}
+}
+
+@inproceedings{li2020celeb,
+  title={Celeb-DF: A Large-scale Challenging Dataset for Deepfake Forensics},
+  author={Li, Yuezun and Yang, Xin and Sun, Pu and Qi, Honggang and Lyu, Siwei},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2020}
 }
 ```
 
