@@ -1,0 +1,22 @@
+{
+  "liveportrait_affected_videos": 72,
+  "liveportrait_rejected_frames": 569,
+  "examples": [
+    {
+      "video_id": "FR-LivePortrait/id10_id11_0004",
+      "rejected_frames": 32,
+      "example_frame_idx": 10,
+      "decoded": true,
+      "image": "research\\local_preprocess\\failure_FR-LivePortrait_id10_id11_0004_10.jpg",
+      "reason": "no_face"
+    },
+    {
+      "video_id": "FR-LivePortrait/id20_id31_0000",
+      "rejected_frames": 30,
+      "example_frame_idx": 110,
+      "decoded": true,
+      "image": "research\\local_preprocess\\failure_FR-LivePortrait_id20_id31_0000_110.jpg",
+      "reason": "no_face"
+    }
+  ]
+}

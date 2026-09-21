@@ -1,0 +1,7 @@
+{
+  "torch": "2.5.1+cu124",
+  "cuda_available": true,
+  "cuda_runtime": "12.4",
+  "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+  "tensor_result": 64.0
+}

@@ -1,0 +1,13 @@
+{
+  "frames": 187,
+  "videos": 4,
+  "counts": {
+    "real/000": 40,
+    "real/001": 46,
+    "real/002": 70,
+    "real/003": 31
+  },
+  "all_hashes_verified": true,
+  "all_jpegs_decoded": true,
+  "all_landmarks_finite_68x2": true
+}

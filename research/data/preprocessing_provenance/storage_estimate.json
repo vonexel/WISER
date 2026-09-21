@@ -1,0 +1,20 @@
+{
+  "pilot_crops": 187,
+  "total_videos": 60086,
+  "maximum_selected_frames": 6008600,
+  "pilot_jpeg_mean_bytes": 18212.973262032086,
+  "pilot_jpeg_p95_bytes": 20706,
+  "pilot_jpeg_max_bytes": 21235,
+  "all_videos_at_100_frames_mean_size": {
+    "data_bytes": 135771340800,
+    "tar_bytes": 134317696743,
+    "combined_bytes": 270089037543
+  },
+  "all_videos_at_100_frames_p95_size": {
+    "data_bytes": 160382566400,
+    "tar_bytes": 149297297200,
+    "combined_bytes": 309679863600
+  },
+  "free_disk_bytes": 424997011456,
+  "caveat": "Source-only four-video pilot is not representative of every method. 100 frames/video is the protocol maximum. Monitor actual bytes during full processing; estimates include both data and separate tar, not raw-video removal."
+}

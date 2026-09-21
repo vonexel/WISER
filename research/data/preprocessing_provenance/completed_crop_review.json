@@ -1,0 +1,505 @@
+{
+  "inventory_videos": 60086,
+  "accepted_videos": 60086,
+  "accepted_frames": 1865740,
+  "rejected_frames": 1243,
+  "omitted_videos": [],
+  "reasons": {
+    "no_landmarks": 158,
+    "no_face": 1085
+  },
+  "groups": {
+    "ffpp/real/train/0": {
+      "inventory_videos": 720,
+      "accepted_frames": 36306,
+      "rejected_frames": 121,
+      "accepted_videos": 720,
+      "affected_videos": 42,
+      "reasons": {
+        "no_landmarks": 120,
+        "no_face": 1
+      },
+      "rejected_fraction": 0.003321711916984654
+    },
+    "ffpp/real/test/0": {
+      "inventory_videos": 140,
+      "accepted_frames": 7358,
+      "rejected_frames": 16,
+      "accepted_videos": 140,
+      "affected_videos": 10,
+      "reasons": {
+        "no_landmarks": 16
+      },
+      "rejected_fraction": 0.0021697857336588013
+    },
+    "ffpp/real/val/0": {
+      "inventory_videos": 70,
+      "accepted_frames": 3397,
+      "rejected_frames": 6,
+      "accepted_videos": 70,
+      "affected_videos": 4,
+      "reasons": {
+        "no_landmarks": 6
+      },
+      "rejected_fraction": 0.001763150161622098
+    },
+    "ffpp/real/cal/0": {
+      "inventory_videos": 70,
+      "accepted_frames": 3397,
+      "rejected_frames": 16,
+      "accepted_videos": 70,
+      "affected_videos": 5,
+      "reasons": {
+        "no_landmarks": 16
+      },
+      "rejected_fraction": 0.004687957808379725
+    },
+    "ffpp/Deepfakes/train/1": {
+      "inventory_videos": 720,
+      "accepted_frames": 36394,
+      "rejected_frames": 33,
+      "accepted_videos": 720,
+      "affected_videos": 6,
+      "reasons": {
+        "no_face": 33
+      },
+      "rejected_fraction": 0.0009059214319049057
+    },
+    "ffpp/Deepfakes/test/1": {
+      "inventory_videos": 140,
+      "accepted_frames": 7373,
+      "rejected_frames": 1,
+      "accepted_videos": 140,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 1
+      },
+      "rejected_fraction": 0.00013561160835367508
+    },
+    "ffpp/Deepfakes/val/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 3403,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/Deepfakes/cal/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 3413,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/Face2Face/train/1": {
+      "inventory_videos": 720,
+      "accepted_frames": 36427,
+      "rejected_frames": 0,
+      "accepted_videos": 720,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/Face2Face/test/1": {
+      "inventory_videos": 140,
+      "accepted_frames": 7372,
+      "rejected_frames": 2,
+      "accepted_videos": 140,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 2
+      },
+      "rejected_fraction": 0.00027122321670735016
+    },
+    "ffpp/Face2Face/val/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 3403,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/Face2Face/cal/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 3413,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/FaceSwap/train/1": {
+      "inventory_videos": 720,
+      "accepted_frames": 29558,
+      "rejected_frames": 0,
+      "accepted_videos": 720,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/FaceSwap/test/1": {
+      "inventory_videos": 140,
+      "accepted_frames": 5868,
+      "rejected_frames": 0,
+      "accepted_videos": 140,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/FaceSwap/val/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 2715,
+      "rejected_frames": 1,
+      "accepted_videos": 70,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 1
+      },
+      "rejected_fraction": 0.0003681885125184094
+    },
+    "ffpp/FaceSwap/cal/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 2916,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/NeuralTextures/train/1": {
+      "inventory_videos": 720,
+      "accepted_frames": 29557,
+      "rejected_frames": 1,
+      "accepted_videos": 720,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 1
+      },
+      "rejected_fraction": 3.383178834833209e-05
+    },
+    "ffpp/NeuralTextures/test/1": {
+      "inventory_videos": 140,
+      "accepted_frames": 5868,
+      "rejected_frames": 0,
+      "accepted_videos": 140,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/NeuralTextures/val/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 2716,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/NeuralTextures/cal/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 2916,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/FaceShifter/train/1": {
+      "inventory_videos": 720,
+      "accepted_frames": 36426,
+      "rejected_frames": 1,
+      "accepted_videos": 720,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 1
+      },
+      "rejected_fraction": 2.745216460317896e-05
+    },
+    "ffpp/FaceShifter/test/1": {
+      "inventory_videos": 140,
+      "accepted_frames": 7374,
+      "rejected_frames": 0,
+      "accepted_videos": 140,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "ffpp/FaceShifter/val/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 3402,
+      "rejected_frames": 1,
+      "accepted_videos": 70,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 1
+      },
+      "rejected_fraction": 0.0002938583602703497
+    },
+    "ffpp/FaceShifter/cal/1": {
+      "inventory_videos": 70,
+      "accepted_frames": 3413,
+      "rejected_frames": 0,
+      "accepted_videos": 70,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/Celeb-real/external/0": {
+      "inventory_videos": 590,
+      "accepted_frames": 22791,
+      "rejected_frames": 9,
+      "accepted_videos": 590,
+      "affected_videos": 7,
+      "reasons": {
+        "no_face": 9
+      },
+      "rejected_fraction": 0.00039473684210526315
+    },
+    "celebdfpp/YouTube-real/external/0": {
+      "inventory_videos": 300,
+      "accepted_frames": 13479,
+      "rejected_frames": 0,
+      "accepted_videos": 300,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/FR-DaGAN/external/1": {
+      "inventory_videos": 1947,
+      "accepted_frames": 65808,
+      "rejected_frames": 112,
+      "accepted_videos": 1947,
+      "affected_videos": 33,
+      "reasons": {
+        "no_face": 112
+      },
+      "rejected_fraction": 0.0016990291262135922
+    },
+    "celebdfpp/FR-FSRT/external/1": {
+      "inventory_videos": 1947,
+      "accepted_frames": 65821,
+      "rejected_frames": 99,
+      "accepted_videos": 1947,
+      "affected_videos": 35,
+      "reasons": {
+        "no_face": 99
+      },
+      "rejected_fraction": 0.0015018203883495145
+    },
+    "celebdfpp/FR-HyperReenact/external/1": {
+      "inventory_videos": 1947,
+      "accepted_frames": 21408,
+      "rejected_frames": 0,
+      "accepted_videos": 1947,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/FR-LIA/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 65896,
+      "rejected_frames": 58,
+      "accepted_videos": 1948,
+      "affected_videos": 15,
+      "reasons": {
+        "no_face": 58
+      },
+      "rejected_fraction": 0.0008794007944931316
+    },
+    "celebdfpp/FR-LivePortrait/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 73856,
+      "rejected_frames": 569,
+      "accepted_videos": 1948,
+      "affected_videos": 72,
+      "reasons": {
+        "no_face": 569
+      },
+      "rejected_fraction": 0.007645280483708431
+    },
+    "celebdfpp/FR-MCNET/external/1": {
+      "inventory_videos": 1947,
+      "accepted_frames": 65839,
+      "rejected_frames": 81,
+      "accepted_videos": 1947,
+      "affected_videos": 26,
+      "reasons": {
+        "no_face": 81
+      },
+      "rejected_fraction": 0.00122876213592233
+    },
+    "celebdfpp/FR-TPSMM/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 65918,
+      "rejected_frames": 36,
+      "accepted_videos": 1948,
+      "affected_videos": 8,
+      "reasons": {
+        "no_face": 36
+      },
+      "rejected_fraction": 0.0005458349758922886
+    },
+    "celebdfpp/FS-BlendFace/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 74201,
+      "rejected_frames": 14,
+      "accepted_videos": 1948,
+      "affected_videos": 12,
+      "reasons": {
+        "no_face": 14
+      },
+      "rejected_fraction": 0.0001886411102876777
+    },
+    "celebdfpp/FS-Celeb-DF-v2/external/1": {
+      "inventory_videos": 5639,
+      "accepted_frames": 214197,
+      "rejected_frames": 1,
+      "accepted_videos": 5639,
+      "affected_videos": 1,
+      "reasons": {
+        "no_face": 1
+      },
+      "rejected_fraction": 4.668577671126715e-06
+    },
+    "celebdfpp/FS-GHOST/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 74204,
+      "rejected_frames": 11,
+      "accepted_videos": 1948,
+      "affected_videos": 9,
+      "reasons": {
+        "no_face": 11
+      },
+      "rejected_fraction": 0.00014821801522603247
+    },
+    "celebdfpp/FS-HifiFace/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 74204,
+      "rejected_frames": 11,
+      "accepted_videos": 1948,
+      "affected_videos": 9,
+      "reasons": {
+        "no_face": 11
+      },
+      "rejected_fraction": 0.00014821801522603247
+    },
+    "celebdfpp/FS-InSwapper/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 74204,
+      "rejected_frames": 11,
+      "accepted_videos": 1948,
+      "affected_videos": 9,
+      "reasons": {
+        "no_face": 11
+      },
+      "rejected_fraction": 0.00014821801522603247
+    },
+    "celebdfpp/FS-MobileFaceSwap/external/1": {
+      "inventory_videos": 1953,
+      "accepted_frames": 74430,
+      "rejected_frames": 11,
+      "accepted_videos": 1953,
+      "affected_videos": 9,
+      "reasons": {
+        "no_face": 11
+      },
+      "rejected_fraction": 0.00014776803105815344
+    },
+    "celebdfpp/FS-SimSwap/external/1": {
+      "inventory_videos": 1953,
+      "accepted_frames": 74452,
+      "rejected_frames": 10,
+      "accepted_videos": 1953,
+      "affected_videos": 9,
+      "reasons": {
+        "no_face": 10
+      },
+      "rejected_fraction": 0.00013429668824366792
+    },
+    "celebdfpp/FS-UniFace/external/1": {
+      "inventory_videos": 1948,
+      "accepted_frames": 74204,
+      "rejected_frames": 11,
+      "accepted_videos": 1948,
+      "affected_videos": 9,
+      "reasons": {
+        "no_face": 11
+      },
+      "rejected_fraction": 0.00014821801522603247
+    },
+    "celebdfpp/TF-AniTalker/external/1": {
+      "inventory_videos": 2950,
+      "accepted_frames": 56923,
+      "rejected_frames": 0,
+      "accepted_videos": 2950,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/TF-EchoMimic/external/1": {
+      "inventory_videos": 2885,
+      "accepted_frames": 54118,
+      "rejected_frames": 0,
+      "accepted_videos": 2885,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/TF-EDTalk/external/1": {
+      "inventory_videos": 2865,
+      "accepted_frames": 55034,
+      "rejected_frames": 0,
+      "accepted_videos": 2865,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/TF-FLOAT/external/1": {
+      "inventory_videos": 2950,
+      "accepted_frames": 56910,
+      "rejected_frames": 0,
+      "accepted_videos": 2950,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/TF-IP_LAP/external/1": {
+      "inventory_videos": 2935,
+      "accepted_frames": 55276,
+      "rejected_frames": 0,
+      "accepted_videos": 2935,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/TF-Real3DPortrait/external/1": {
+      "inventory_videos": 2744,
+      "accepted_frames": 51494,
+      "rejected_frames": 0,
+      "accepted_videos": 2744,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    },
+    "celebdfpp/TF-SadTalker/external/1": {
+      "inventory_videos": 2950,
+      "accepted_frames": 56688,
+      "rejected_frames": 0,
+      "accepted_videos": 2950,
+      "affected_videos": 0,
+      "reasons": {},
+      "rejected_fraction": 0.0
+    }
+  },
+  "remaining_method_samples": [
+    "crops/celebdfpp/TF-FLOAT/id38_0006_test_id03041_qyCz5uttaAA/frame_000110.jpg",
+    "crops/celebdfpp/TF-IP_LAP/id38_0007_test_id04536_4_UXnRuWwzc/frame_000100.jpg",
+    "crops/celebdfpp/TF-Real3DPortrait/id38_0001_test_id05124_HG4HDDsuM6g/frame_000160.jpg",
+    "crops/celebdfpp/TF-SadTalker/id38_0006_test_id03041_qyCz5uttaAA/frame_000110.jpg"
+  ],
+  "review": "All inventory videos represented. Frame detection failures retained as logged; no video exclusions requested. Full file hash and leakage audit is a separate required stage."
+}

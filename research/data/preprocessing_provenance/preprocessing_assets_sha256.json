@@ -1,0 +1,10 @@
+{
+  "research/tools/prepare_data.py": "cb3654e65ae1c70012f49c7638d689c1499e1a47dd8bebb134c02e29e8c9797f",
+  "research/linux/requirements-preprocess.txt": "1725dbcc22cf793062eab20a8db8f9f57bded6e8eb623878c9ab4245702761f9",
+  "research/local_preprocess/environment-freeze.txt": "fcfa5236a649038644e3a286367bdcb889f7984b219b77461f5ccb61c1edc020",
+  "research/local_preprocess/torch/hub/checkpoints/s3fd-619a316812.pth": "619a31681264d3f7f7fc7a16a42cbbe8b23f31a256f75a366e5a1bcd59b33543",
+  ".venv-preprocess/Lib/site-packages/facenet_pytorch/data/onet.pt": "165bfbe42940416ccfb977545cf0e976d5bf321f67083ae2aaaa5c764280118d",
+  ".venv-preprocess/Lib/site-packages/facenet_pytorch/data/pnet.pt": "a2a71925e0b9996a42f63e47efc1ca19043e69558b5c523b978d611dfae49c8f",
+  ".venv-preprocess/Lib/site-packages/facenet_pytorch/data/rnet.pt": "bbb937de72efc9ef83b186c49f5f558467a1d7e3453a8ece0d71a886633f6a86",
+  "research/local_preprocess/torch/hub/checkpoints/2DFAN4-cd938726ad.zip": "cd938726adb1f15f361263cce2db9cb820c42585fa8796ec72ce19107f369a46"
+}
