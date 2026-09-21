@@ -1,0 +1,5 @@
+{
+  "source": "comparisons.json",
+  "sha256": "f90100c6270875d8eaec85532bdf5858d20b4f9867e0cb6dbb2db4fa01d90401",
+  "error_bars": "Contrast: adjusted bootstrap CI. Metrics: seed SD, not CI."
+}

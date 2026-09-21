@@ -1,0 +1,215 @@
+[
+  {
+    "experiment": "E04",
+    "seed": 0,
+    "tier": "confirmatory",
+    "changes_from_E04": {}
+  },
+  {
+    "experiment": "E04",
+    "seed": 1,
+    "tier": "confirmatory",
+    "changes_from_E04": {}
+  },
+  {
+    "experiment": "E04",
+    "seed": 2,
+    "tier": "confirmatory",
+    "changes_from_E04": {}
+  },
+  {
+    "experiment": "E05",
+    "seed": 0,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "loss.mphc.rp_enabled": false
+    }
+  },
+  {
+    "experiment": "E05",
+    "seed": 1,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "loss.mphc.rp_enabled": false
+    }
+  },
+  {
+    "experiment": "E05",
+    "seed": 2,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "loss.mphc.rp_enabled": false
+    }
+  },
+  {
+    "experiment": "E05b",
+    "seed": 0,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "loss.mphc.enabled": false
+    }
+  },
+  {
+    "experiment": "E05b",
+    "seed": 1,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "loss.mphc.enabled": false
+    }
+  },
+  {
+    "experiment": "E05b",
+    "seed": 2,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "loss.mphc.enabled": false
+    }
+  },
+  {
+    "experiment": "E06",
+    "seed": 0,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "augment.use_awb_sbi": false
+    }
+  },
+  {
+    "experiment": "E06",
+    "seed": 1,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "augment.use_awb_sbi": false
+    }
+  },
+  {
+    "experiment": "E06",
+    "seed": 2,
+    "tier": "confirmatory",
+    "changes_from_E04": {
+      "augment.use_awb_sbi": false
+    }
+  },
+  {
+    "experiment": "F00_SBI_no_contrastive",
+    "seed": 0,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.use_awb_sbi": false,
+      "loss.mphc.enabled": false
+    }
+  },
+  {
+    "experiment": "F00_SBI_no_contrastive",
+    "seed": 1,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.use_awb_sbi": false,
+      "loss.mphc.enabled": false
+    }
+  },
+  {
+    "experiment": "F00_SBI_no_contrastive",
+    "seed": 2,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.use_awb_sbi": false,
+      "loss.mphc.enabled": false
+    }
+  },
+  {
+    "experiment": "M01_no_gradient",
+    "seed": 0,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.sbi.energy_boost": 1.0
+    }
+  },
+  {
+    "experiment": "M01_no_gradient",
+    "seed": 1,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.sbi.energy_boost": 1.0
+    }
+  },
+  {
+    "experiment": "M01_no_gradient",
+    "seed": 2,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.sbi.energy_boost": 1.0
+    }
+  },
+  {
+    "experiment": "M02_no_LL",
+    "seed": 0,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.sbi.alpha_ll": 0.0
+    }
+  },
+  {
+    "experiment": "M02_no_LL",
+    "seed": 1,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.sbi.alpha_ll": 0.0
+    }
+  },
+  {
+    "experiment": "M02_no_LL",
+    "seed": 2,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "augment.sbi.alpha_ll": 0.0
+    }
+  },
+  {
+    "experiment": "M03_one_prototype",
+    "seed": 0,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "loss.mphc.K": 1
+    }
+  },
+  {
+    "experiment": "M03_one_prototype",
+    "seed": 1,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "loss.mphc.K": 1
+    }
+  },
+  {
+    "experiment": "M03_one_prototype",
+    "seed": 2,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "loss.mphc.K": 1
+    }
+  },
+  {
+    "experiment": "M04_no_hard_real_weight",
+    "seed": 0,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "loss.mphc.hard_real_weight": 1.0
+    }
+  },
+  {
+    "experiment": "M04_no_hard_real_weight",
+    "seed": 1,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "loss.mphc.hard_real_weight": 1.0
+    }
+  },
+  {
+    "experiment": "M04_no_hard_real_weight",
+    "seed": 2,
+    "tier": "mechanism",
+    "changes_from_E04": {
+      "loss.mphc.hard_real_weight": 1.0
+    }
+  }
+]
