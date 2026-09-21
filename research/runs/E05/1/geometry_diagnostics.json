@@ -1,0 +1,120 @@
+{
+  "unit": "mean frame embedding per video, then L2 normalization",
+  "caution": "Diagnostic evidence only; improved geometry does not prove classifier generalization.",
+  "scopes": {
+    "val": {
+      "0": {
+        "videos": 70,
+        "prototype_assignment_counts": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "real_minus_fake_margin_quantiles": [
+          -0.09594329595565794,
+          0.1807360202074051,
+          0.3224969804286957,
+          0.41681016981601715,
+          0.47249452620744703
+        ],
+        "mean_cosine_to_class_centroid": 0.8233675956726074,
+        "fraction_positive_real_margin": 0.8857142857142857
+      },
+      "1": {
+        "videos": 350,
+        "prototype_assignment_counts": [
+          0,
+          350,
+          0,
+          0
+        ],
+        "real_minus_fake_margin_quantiles": [
+          -0.43786133378744124,
+          -0.4008689522743225,
+          -0.36939334869384766,
+          -0.3347668945789337,
+          -0.06253251135349244
+        ],
+        "mean_cosine_to_class_centroid": 0.9183729290962219,
+        "fraction_positive_real_margin": 0.037142857142857144
+      }
+    },
+    "test": {
+      "0": {
+        "videos": 140,
+        "prototype_assignment_counts": [
+          0,
+          140,
+          0,
+          0
+        ],
+        "real_minus_fake_margin_quantiles": [
+          -0.1479665994644165,
+          0.20190811157226562,
+          0.36305488646030426,
+          0.4401707574725151,
+          0.46780650764703746
+        ],
+        "mean_cosine_to_class_centroid": 0.8215757012367249,
+        "fraction_positive_real_margin": 0.9142857142857143
+      },
+      "1": {
+        "videos": 700,
+        "prototype_assignment_counts": [
+          0,
+          700,
+          0,
+          0
+        ],
+        "real_minus_fake_margin_quantiles": [
+          -0.43730522990226744,
+          -0.40301869809627533,
+          -0.3775147497653961,
+          -0.3424758166074753,
+          -0.07470318377017987
+        ],
+        "mean_cosine_to_class_centroid": 0.9190844297409058,
+        "fraction_positive_real_margin": 0.037142857142857144
+      }
+    },
+    "external": {
+      "0": {
+        "videos": 890,
+        "prototype_assignment_counts": [
+          0,
+          890,
+          0,
+          0
+        ],
+        "real_minus_fake_margin_quantiles": [
+          -0.3661982074379921,
+          -0.21212881803512573,
+          -0.020870298147201538,
+          0.17112436890602112,
+          0.3836762607097625
+        ],
+        "mean_cosine_to_class_centroid": 0.7987287044525146,
+        "fraction_positive_real_margin": 0.4707865168539326
+      },
+      "1": {
+        "videos": 53196,
+        "prototype_assignment_counts": [
+          0,
+          53196,
+          0,
+          0
+        ],
+        "real_minus_fake_margin_quantiles": [
+          -0.4459761381149292,
+          -0.3526269942522049,
+          -0.15620172023773193,
+          0.06321872770786285,
+          0.3350995033979416
+        ],
+        "mean_cosine_to_class_centroid": 0.778569757938385,
+        "fraction_positive_real_margin": 0.31810662455823746
+      }
+    }
+  }
+}

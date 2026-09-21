@@ -1,0 +1,8 @@
+{
+  "temperature": 1.2094094623950347,
+  "bias": -0.8172316681673459,
+  "raw_threshold": 0.6542841297341511,
+  "calibrated_threshold": 0.7676945314742625,
+  "fit": "video-balanced frame NLL on FF++ cal; thresholds maximize video bAcc on cal",
+  "nll": 0.18470970661666405
+}

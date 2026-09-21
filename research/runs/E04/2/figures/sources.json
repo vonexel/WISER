@@ -1,0 +1,15 @@
+{
+  "source_files_sha256": {
+    "epoch_history.json": "37b535af24914acf381a944c4f3882e3afaa444c48e0f827855af0825e35539e",
+    "val_predictions.npz": "335f0938093ed394f64b659aa24fdea4bba1e8b2eb04ff9f86edf6602e992cd7",
+    "val_metrics.json": "3cd19337e8f8f116e55ffc5f70d213d12d9ce40f4a1759988a0ef30f5e715431",
+    "test_predictions.npz": "39c7e6f4db1243f7c42d38290effdca8498ad7a44da0633b0f7bb70fbc1f24a3",
+    "test_metrics.json": "bae2fb5ea99dc056f435d6b5810b18f2ae0f7ba193265492296c68305f0af00f",
+    "external_predictions.npz": "7025e3e52bcef8039773ed830a56a20bb5f967cf47066af55de0136af88d0f54",
+    "external_metrics.json": "ad1bd74a0425502a29dba0dcc45c98be1047b25ba56c7e326c425d5876e7b313",
+    "calibration.json": "8a25c8124809b7d071fb9b8fab0ed96b3828561da8301111e982804e33f6d8d0"
+  },
+  "pooling": "mean frame probability per video",
+  "matplotlib": "3.9.2",
+  "scientific_use_allowed": true
+}
