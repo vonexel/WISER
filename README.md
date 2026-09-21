@@ -52,6 +52,8 @@ The wavelet representation was chosen over global Fourier transforms because it 
 
 Representation disentanglement via CND is motivated by the observation that a single embedding entangles universal manipulation signatures with generator-specific patterns. When the generator changes, the method-dependent component becomes noise. Explicit decomposition allows the classifier to rely primarily on the manipulation embedding while the method embedding can be marginalized or used for auxiliary prediction tasks.
 
+AWB-SBI and RP-MPHC training methods for transfer from FaceForensics++ to Celeb-DF++ are discussed [here](https://github.com/vonexel/WISER/tree/wiser-research-v2).
+
 ---
 
 ## Architecture
