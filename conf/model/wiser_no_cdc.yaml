@@ -1,0 +1,5 @@
+# @package model
+defaults:
+  - wiser_full
+cdc:
+  theta: 0.0

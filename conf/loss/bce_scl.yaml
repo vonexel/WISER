@@ -1,0 +1,9 @@
+# @package loss
+defaults:
+  - full
+mphc:
+  enabled: true
+  K: 1
+  asymmetric: false
+freq:
+  enabled: false

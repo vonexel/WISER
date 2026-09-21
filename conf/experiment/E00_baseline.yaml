@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: baseline_scade_like
+  - override /loss: bce_scl
+  - override /augment: basic
+  - override /training: default
+experiment_id: E00_baseline
+tags: [baseline, scade-like]

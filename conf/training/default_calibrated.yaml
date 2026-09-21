@@ -1,0 +1,26 @@
+# @package training
+# identical to default.yaml except inference-time calibration & video pooling are turned on
+optim:
+  lr: 3.0e-4
+  weight_decay: 0.05
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+sched:
+  epochs: 100
+  warmup_frac: 0.05
+  min_lr: 1.0e-6
+calibration:
+  enabled: true
+  target_per_class: 4000
+  val_seed: 42
+  video_pool_calibrated: median
+  video_pool_uncalibrated: mean
+epochs: 100
+grad_clip_norm: 1.0
+grad_accum_steps: 1
+amp_dtype: bf16
+ema_decay: 0.9999
+early_stopping_patience: 10
+log_every: 50
+sanity_steps: 0
+eval_during_training: true

@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: wiser_rf_full
+  - override /loss: rp_hc_no_rp
+  - override /augment: awb_sbi
+  - override /training: default_calibrated
+experiment_id: E05_no_rp_mphc
+tags: [wiser_rf, ablation, no_rp_mphc]

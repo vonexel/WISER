@@ -1,0 +1,23 @@
+defaults:
+  - _self_
+  - model: wiser_full
+  - data: ffpp
+  - loss: full
+  - augment: full
+  - training: default
+  - optional experiment: null
+
+
+seed: 0
+experiment_id: default
+tags: []
+output_root: ${hydra:runtime.cwd}/outputs
+
+hydra:
+  run:
+    dir: ${output_root}/${experiment_id}/${seed}
+  sweep:
+    dir: ${output_root}/${experiment_id}
+    subdir: ${seed}
+  job:
+    chdir: false

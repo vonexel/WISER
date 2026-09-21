@@ -1,0 +1,7 @@
+# @package training
+defaults:
+  - default
+epochs: 1
+sanity_steps: 100
+log_every: 10
+early_stopping_patience: 99

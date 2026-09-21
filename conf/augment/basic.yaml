@@ -1,0 +1,13 @@
+# @package augment
+defaults:
+  - full
+sbi:
+  enabled: false
+freqmask:
+  enabled: false
+color_jitter: 0.0
+jpeg_compression: 0.0
+gauss_noise: 0.0
+gauss_blur: 0.0
+brightness_contrast: 0.0
+shift_scale_rotate: 0.0

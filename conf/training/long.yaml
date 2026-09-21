@@ -1,0 +1,7 @@
+# @package training
+defaults:
+  - default
+epochs: 120
+early_stopping_patience: 15
+sched:
+  epochs: 120

@@ -1,0 +1,27 @@
+# @package augment
+use_awb_sbi: true
+sbi:
+  enabled: true
+  p_sbi: 0.5
+  feather_sigma_min: 1.0
+  feather_sigma_max: 5.0
+  alpha_ll: 0.15
+  energy_boost: 1.5
+  soft_label: 0.7
+freqmask:
+  enabled: true
+  p_freqmask: 0.3
+  min_size_frac: 0.05
+  max_size_frac: 0.25
+  high_freq_bias: 0.7
+arca:
+  enabled: false
+real_mixstyle:
+  enabled: false
+horizontal_flip: 0.5
+color_jitter: 0.5
+jpeg_compression: 0.3
+gauss_noise: 0.2
+gauss_blur: 0.2
+brightness_contrast: 0.3
+shift_scale_rotate: 0.5

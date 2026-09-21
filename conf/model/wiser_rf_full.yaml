@@ -1,0 +1,31 @@
+# @package model
+_target_: wiser.models.wiser.WISER
+embed_dim: 192
+num_classes: 1
+dropout: 0.1
+cdc:
+  in_ch: 3
+  out_ch: 32
+  theta: 0.7
+wavelet:
+  enabled: true
+  use_defocus: true
+  high_freq_gate: true
+bissm:
+  enabled: true
+  d_state: 16
+  d_conv: 4
+  expand: 1
+  bidirectional: true
+ssca:
+  enabled: true
+  heads: 1
+  dim: 256
+cnd:
+  enabled: true
+  zc_dim: 192
+  zn_dim: 64
+  num_methods: 6
+  grl_lambda_max: 0.3
+  orth_warmup_epoch: 5
+compile: false

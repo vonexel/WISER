@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: wiser_full
+  - override /loss: full
+  - override /augment: awb_sbi_only
+  - override /training: default_calibrated
+experiment_id: E02_awb_sbi_only
+tags: [wiser_rf, awb_sbi_only]

@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /model: wiser_full
+  - override /loss: rp_mphc_only
+  - override /augment: full
+  - override /training: default_calibrated
+experiment_id: E01_rp_mphc_only
+tags: [wiser_rf, rp_mphc_only]
