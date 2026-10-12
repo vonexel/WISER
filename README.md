@@ -545,4 +545,4 @@ Figures and metrics can be inspected without rerunning training. Training curves
 
 Dataset users should also cite the [FaceForensics++ reference](https://arxiv.org/abs/1901.08971) and the [Celeb-DF++ reference](https://arxiv.org/abs/2507.18015) listed in the study documentation.
 
-Project code is provided under the [MIT License](LICENSE). The historical evidence archive has its own [licensing information](research/archive/wiser-second-article-evidence-1.0.5/LICENSE.md); dataset access terms apply independently. Licensed source videos are not granted redistribution rights by this repository's code license.
+Project code is provided under the [MIT License](LICENSE). The historical evidence archive has its own [licensing information](https://github.com/vonexel/WISER/blob/master/README.md); dataset access terms apply independently. Licensed source videos are not granted redistribution rights by this repository's code license.
